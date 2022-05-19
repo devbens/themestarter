@@ -1,0 +1,20 @@
+# Ignore everyghing except .gitignore and composer.*
+/*
+!/.cpanel.yml
+!/.gitignore
+!/composer.*
+!/wp-content/
+/wp-content/*
+
+# Scripts
+!/scripts/
+
+# Version-controlled plugins
+!/wp-content/mu-plugins/
+!/wp-content/plugins/
+/wp-content/plugins/*
+
+# Version-controlled themes
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/wp-boilerplate

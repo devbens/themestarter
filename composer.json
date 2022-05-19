@@ -1,0 +1,43 @@
+{
+    "name": "benjophp/wp-boilerplate",
+    "description": "WordPress project",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [{
+        "type": "composer",
+        "url": "https://wpackagist.org"
+    }],
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "./scripts/post-create.sh"
+        ]
+    },
+    "require": {
+        "wpackagist-plugin/acf-better-search": "*",
+        "wpackagist-plugin/autodescription": "*",
+        "wpackagist-plugin/clean-image-filenames": "*",
+        "wpackagist-plugin/disable-comments": "*",
+        "wpackagist-plugin/emails-catch-all": "*",
+        "wpackagist-plugin/enable-media-replace": "*",
+        "wpackagist-plugin/hide-updates": "*",
+        "wpackagist-plugin/loco-translate": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/safe-svg": "*",
+        "wpackagist-plugin/simple-custom-post-order": "*",
+        "wpackagist-plugin/tinymce-advanced": "*",
+        "wpackagist-plugin/user-switching": "*",
+        "wpackagist-plugin/webp-converter-for-media": "*"
+    }
+}
