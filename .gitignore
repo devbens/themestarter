@@ -7,7 +7,7 @@
 /wp-content/*
 
 # Scripts
-!/scripts/
+/scripts/
 
 # Version-controlled plugins
 !/wp-content/mu-plugins/
